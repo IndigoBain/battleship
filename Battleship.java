@@ -20,7 +20,7 @@ public class Battleship{
   * THIS IS MAIN METHOD
   * THIS IS WHERE THE PROGRAM STARTS
   **/
-  public static void main(String[] args){
+ /* public static void main(String[] args){
     
     //ASK THE USER TO PLACE THEIR FIRST SHIP
     Scanner input = new Scanner(System.in);
@@ -45,6 +45,8 @@ public class Battleship{
     printBoard();
     
     //TO-DO: IN THE NEXT LINES OF CODE, ASK THE USER TO PLACE THE SECOND AND THIRD SHIPS
+    
+    
    
 
   }
@@ -52,6 +54,15 @@ public class Battleship{
   /**
   * THIS IS A CUSTOM METHOD THAT PRINT THE BOARD
   **/
+  
+  public Battleship(){
+    
+  }
+  
+  public void placeShip(int x, int y){
+    ships [x][y] ='x';
+    
+  }
   public static void printBoard(){ 
      System.out.println("Battleship");
      System.out.println("_____________________________________________");
