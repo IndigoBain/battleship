@@ -24,7 +24,7 @@ public class Player{
   }
   
   public int getRandomNumber(int max, int min){
-      int rangeX = (max - min) + 1;
+      int rangeX = (max - min) ;
     
     return (int)(Math.random() * rangeX) + min;  
     
