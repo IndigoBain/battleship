@@ -1,3 +1,4 @@
+//this creates the board for the ships and player 
 //IMPORT TO FOR USER INPUT
 import java.util.Scanner;
 
