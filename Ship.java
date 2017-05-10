@@ -1,3 +1,4 @@
+
 public class Ship{
   private int x1;
   private int y1;
@@ -42,6 +43,7 @@ public class Ship{
   public String toString(){
     return "(" + x1 + ", " + y1 + ") (" + x2 + ", " + y2 + ")";
 
+   // This code allows the player to insert x and y values which will take the place on the board of their ships.
 
   }
 }

@@ -1,4 +1,5 @@
 //import java.util.list;
+// the class declares the player. it gets and sets the ship and its coordinates 
 public class Player{
   //private String color;
   private boolean win; 
@@ -27,6 +28,7 @@ public class Player{
       int rangeX = (max - min) ;
     
     return (int)(Math.random() * rangeX) + min;  
+    
     
   
 

@@ -10,6 +10,8 @@ System.out.println("Welcome to BattleShip!! Choose the placement of your first s
       
       
       System.out.println()
+        
+      //This is the Welcome screen that will appear when the game is first started.
       
     }
 
